@@ -57,7 +57,7 @@ namespace WpfApp1
             batu_kanan = 10;
             disable_all_button();
 
-            Notification.Text = "Selamat datang di permainan Dua Batu!  credit: https://www.coursera.org/learn/algorithmic-toolbox";
+            Notification.Text = "Selamat datang di permainan Dua Batu! \ncredit: algorithmic toolbox @Coursera.org";
             NotificationBorder.BorderBrush = new SolidColorBrush(Colors.DeepSkyBlue);
             
             await Task.Delay(1000);
